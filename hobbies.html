@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbyuri</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=SF+Pro+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="index.html" class="logo">Prezentare</a>
+                <nav class="desktop-nav">
+                    <a href="index.html" class="nav-link">Prezentare</a>
+                    <a href="hobbies.html" class="nav-link active">Hobbyuri</a>
+                    <a href="experience.html" class="nav-link">Experiență</a>
+                </nav>
+                <button class="mobile-menu-button" aria-label="Toggle menu">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="index.html" class="mobile-nav-link">Prezentare</a>
+                <a href="hobbies.html" class="mobile-nav-link">Hobbyuri</a>
+                <a href="experience.html" class="mobile-nav-link">Experiență</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" style="background-image: url('img/hobbies-bg.png')">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in">Hobbyurile mele</h1>
+                    <p class="fade-in">Activități care mă pasionează și îmi aduc bucurie în timpul liber</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Jocuri video</h2>
+                    <p>O mică evadare din lumea reală</p>
+                </div>
+                <div class="hobby-content">
+                    <div class="hobby-image animated-card">
+                        <img src="img/dbh.jpg" alt="Detroit become human" class="glass-card">
+                    </div>
+                    <div class="hobby-description animated-card">
+                        <p>Pentru mine jocurile video sunt cea mai bună metodă de a evada puțin din viața reală, dar totodată să fac ceva interactiv din care pot afla ceva nou sau să îmi dezvolt dexteritatea dar și să îmi petrec timpu cu prietenii, în zilele în care toți suntem ocpați și nu avem timp să ieșim.</p>
+                        <p>Jocurile mele preferate sunt cele care sunt bazate pe o poveste, simulatoarele, în special FIFA dar și jocuri competitive - shooter.</p>
+                        <div class="hobby-details">
+                            <div class="hobby-detail">
+                                <strong>Genuri preferate:</strong>
+                                <p>Story, Shooter, Sports, Coop</p>
+                            </div>
+                            <div class="hobby-detail">
+                                <strong>Jocuri preferate:</strong>
+                                <p>Detroit Become Human, Red Dead Redemption, GTA, FIFA/EA FC, Counter Strike, Valorant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-secondary">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Programarea</h2>
+                    <p>Un mod de a creea orice ai în minte</p>
+                </div>
+                <div class="hobby-content reverse">
+                    <div class="hobby-image animated-card">
+                        <img src="img/coding.jpeg" alt="Programare" class="glass-card">
+                    </div>
+                    <div class="hobby-description animated-card">
+                        <p>Programarea mi s-a părut interesantă înca din timpul liceului. Mă fascina mereu faptul că puteai să realizezi orice ai în cap, iar resursele și metodele tot mai vaste din acest domeniu fac ca programarea să devină tot mai accesibilă pentru oricine.</p>
+                        <p>Am început cu HTML și CSS, ulterior când am ajuns la facultate am început să folosesc C#, C++, SQL și în ultimul timp am început să mă axez pe Python.</p>
+                        <div class="hobby-gallery">
+                            <div class="book-card glass-card">
+                                <h4>În ce am programat până acum:</h4>
+                                <ul>
+                                    <li>HTML (CSS, JS, PHP)</li>
+                                    <li>C#</li>
+                                    <li>C++</li>
+                                    <li>SQL</li>
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Design 3D</h2>
+                    <p>Un mod prin care îți creezi propria lume</p>
+                </div>
+                <div class="hobby-content">
+                    <div class="hobby-image animated-card">
+                        <img src="img/mere.jpg" alt="Mere" class="glass-card">
+                    </div>
+                    <div class="hobby-image animated-card">
+                        <img src="img/Donut.jpg" alt="Donut" class="glass-card">
+                    </div>
+                    <div class="hobby-image animated-card">
+                        <img src="img/Sword.jpg" alt="Sword" class="glass-card">
+                    </div>
+                    <div class="hobby-image animated-card">
+                        <img src="img/masaW.jpg" alt="Masa" class="glass-card">
+                    </div>
+                    <div class="hobby-description animated-card">
+                        <p>Designul 3D este un hobby recent descopeirt în urma unei scurte povești (≈250 pagini) scrise de mine. Din dorința de a face povestea „realitate” am început să învăț să îmi modelez proprile obiecte și personaje</p>
+                        <p>Din cauza timpului limitat pe care îl am nu am avut posibilitatea să creez foarte multe lucruri, dar după finalizarea studilor mă pot axa mai mult pe aceste hobbyuri.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-secondary">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Alte pasiuni</h2>
+                    <p>Activități diverse care îmi completează timpul liber</p>
+                </div>
+                <div class="hobbies-grid">
+                    <div class="hobby-card glass-card animated-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="currentColor">
+                                <path d="M7 7V5a5 5 0 0 1 10 0v2h3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3zm2 0h6V5a3 3 0 0 0-6 0v2z"/>
+                            </svg>
+                        </div>                        
+                        <h3>Călătorit</h3>
+                        <p>Îmi place foarte mult să explorez locuri noi. Îmi place în special să merg la munte.</p>
+                    </div>
+                    <div class="hobby-card glass-card animated-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="currentColor">
+                                <path d="M4 2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v16h16V4H4zm2 2h12v2H6V6zm0 4h12v2H6v-2zm0 4h8v2H6v-2z"/>
+                            </svg>
+                        </div>                                                 
+                        <h3>Citit</h3>
+                        <p>Când nu vreau să stau cu ochii în ecran pentru un joc cu poveste aleg să citesc o carte.</p>
+                    </div>
+                    <div class="hobby-card glass-card animated-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="currentColor">
+                                <rect x="4" y="9" width="2" height="6"/>
+                                <rect x="18" y="9" width="2" height="6"/>
+                                <rect x="9" y="11" width="6" height="2"/>
+                                <rect x="2" y="7" width="2" height="10"/>
+                                <rect x="20" y="7" width="2" height="10"/>
+                            </svg>
+                        </div>                                         
+                        <h3>Sport</h3>
+                        <p>Un obicei sănătos și distractiv, sunt un mare fan al fotbalului.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Prezentare. Toate drepturile rezervate.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
